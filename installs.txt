@@ -1,0 +1,9 @@
+sudo apt-get update && sudo apt-get install -y tesseract-ocr tesseract-ocr-eng
+
+python -m venv venv
+source venv/bin/activate # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+
+
+THIS IS HOW WE RUN ALL THIS:
+python pipeline.py sample.pdf output_dir mistral-7b-instruct

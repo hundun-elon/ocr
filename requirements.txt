@@ -1,0 +1,9 @@
+pytesseract
+opencv-python-headless
+Pillow
+pdf2image
+numpy
+transformers>=4.30.0
+torch 
+python-magic
+pytest
